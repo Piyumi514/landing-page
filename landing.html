@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="#active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn" ><a href="#"></a>Contact</li>
+        </ul>
+
+        <img src="image/menu-btn.png" alt="menu" class="menu-btn">
+    </nav>
+
+
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Lern More</a>
+        </div>
+    </header>
+
+    <!--  ==Events== -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+              <img src="image/img1.png" alt="">  
+              <h4>Everest Camp Trek</h4>
+              <p>The Everest Base Camp trek is a legendary journey that beckons adventurers to conquer its formidable trails and witness 
+                the awe-inspiring beauty of the world's highest peaks. 
+                Along the way, trekkers forge unforgettable memories amidst the rugged terrain and stunning vistas of the Himalayas.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="image/img2.png" alt="">  
+                <h4>Walking Holiday</h4>
+                <p>Embarking on a walking holiday allows travelers to immerse themselves in the natural splendor of their surroundings, 
+                    rejuvenating both body and soul with each step taken. Whether strolling through picturesque countryside or trekking along coastal paths, 
+                    the rhythm of walking unlocks the wonders of exploration and discovery.</p>
+                  <a href="#" class="ctn">Learn More</a>
+              </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>  
+            
+            <p>
+                Exploring the world opens doors to diverse cultures, breathtaking landscapes, 
+                and unforgettable experiences, enriching one's understanding of the vast tapestry of human existence. 
+                From ancient ruins to modern marvels, each destination offers a new chapter in the never-ending adventure of discovery and wonder.
+
+
+
+
+</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+          <div class="col content-col">
+            <h1> UPCOMING TOURS & DESTINATIONS</h1>
+            <div class="line"></div>
+            <p>
+                Exciting upcoming events and destinations beckon with promises of adventure, providing the perfect 
+                opportunity to satisfy wanderlust and create unforgettable experiences with loved ones. From vibrant festivals to serene 
+                getaways, there's a world of possibilities waiting to be explored.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div> 
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="image/img3.png" alt="">
+                    <img src="image/img4.png" alt="">
+                    <img src="image/img5.png" alt="">
+                    <img src="image/img6.png" alt="">
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>123 Fifth Avenue, NY 10160, Colombo, Sri Lanka | Phone: 070-1911 376 | Email: tpindunil14@gmail.com</p>
+        <p>copyright @ 2020 Outdoor Adventure</p>
+
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',() => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
